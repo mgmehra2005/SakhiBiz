@@ -1,0 +1,17 @@
+{
+  "name": "SakhiBiz",
+  "short_name": "SakhiBiz",
+  "description": "आपका डिजिटल बिज़नेस साथी — Your Digital Business Companion",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fffdf9",
+  "theme_color": "#ff7e5f",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
