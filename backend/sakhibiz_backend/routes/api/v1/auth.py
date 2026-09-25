@@ -26,7 +26,7 @@ def register():
     if User.query.filter_by(email=email).first():
         return jsonify({"error": "An account with this email already exists"}), 409
 
-    user = User(name=name, email=email)
+    user = User(name=name, email=email) # pyrefly:ignore
     user.set_password(password)
     db.session.add(user)
     db.session.commit()
